@@ -1,13 +1,56 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #070707;
+}
+
+/* Typography size and weight specifications */
+
+body {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  line-height: 150%
+}
+
+
+h1 {
+  font-size: 3em; /* 48px */
+  font-weight: bold;
+  margin-bottom: 40px; /* space between headline and subtitle */
+  margin-top: 40px;  /* space between the photo and headline */
+}
+
+h3 {
+  font-size: 2em; /*32 px */
+  font-weight: lighter;
+  line-height:normal;
+  margin-bottom: 30px; /* space between the subtitle and paragraphs */
+}
+
+
+p {
+  font-size: 100%; /* 16px */
+  margin-bottom: 20px; /* between paragraphs */
+}
+
+p.author {
+  font-size: 100%; /* 16px */
+  font-weight: bold;
+  margin-bottom: 20px; /* between paragraphs */
+}
+
+figcaption {
+  font-size: 90%;
+  margin-bottom: 20px;
+  font-style:italic;
+  color: #848484;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color:#070707 ;
   float: left;
   position: fixed;
   width: 100%;
+  text-decoration:none;
 }
 
 .logo {
@@ -31,6 +74,10 @@ nav {
 .right {
   float: right;
 }
+
+a:link { color: #FEC20F; text-decoration: none}
+a:hover { color:#FDECBE; } /* mouse over */
+a:active { color:#FFFFFF; } /* selected */
 
 ul {
   list-style-type: none;
